@@ -300,3 +300,6 @@ header nav ul > li.btn-outline:hover > a {
   font-size:13px;
   margin-top: 30px;
 }
+.stagger {
+    margin-top: 20px;
+}
