@@ -43,12 +43,14 @@ p{
   min-height: 1px;
   margin: 0 2% 20px;
 }
-/* Mobile Styles */
-/*@media only screen and (min-width: 400px) {
-  body {
+ /*Mobile Styles */*/
+@media only screen and (min-width: 400px) {
+  .container {
     background-color: #FFFFFF;
+    padding: 0px;
+
 }
-}*/
+}
 @media (min-width: 768px){
   .container {
     width: 750px;
@@ -127,6 +129,7 @@ header .hero {
   text-align: center;
   display:block;
   position: relative;
+
 }
 header .hero h1 {
   font-size:48px;
@@ -139,10 +142,25 @@ header .hero p {
   font-weight: 100;
   margin:10px 0 40px;
 }
+/*how do I do the width and height only to smaller screens?*/
 header .hero img {
   display: block;
   margin:3em auto 0;
+  width: 100%;
+  height: auto;
 }
+/*@media only screen and (max-width: 500px){
+    header .hero img{
+    width: 100;
+    height: auto;
+}
+  }
+@media (min-width:768px) {
+    header .hero img{
+    width: 100;
+    height: auto;
+}
+}*/
 /* BUTTON */
 .btn {
   border-radius: 4px;
@@ -346,11 +364,11 @@ footer .right-footer-block {
   background-color: transparent;
 }
 footer .logo{
-  padding: 2.35em 0;
+  /*padding: 2.35em 0;*/
   margin: 0 auto;
   display: block;
 }
-@media (min-width: 992px){
+@media (min-width: 600px){
   footer{
     background-color: #fafafa;
     /*background-image: linear-gradient(to left, #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);*/
@@ -366,6 +384,18 @@ footer .right-footer-block {
 footer .logo{
   padding: 2em 0 2em 1.5em;
 }
+/*@media only screen and (max-width: 600px){
+    footer .logo{
+        width: 100%;
+        margin: 0 auto;
+    }
+}*/
+/*@media (max-width: 600px){
+  footer .logo{
+    height: 100px;
+    padding: 0%;
+}
+}*/
 /* DASHBOARD */
 .dashboard {
   background:#F7F7F7;
