@@ -338,6 +338,7 @@ header .hero img {
 .new-section {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: -70px;
   /*padding: 30px;*/
   /*position: relative;*/
 }
@@ -374,7 +375,7 @@ footer .logo{
   margin: 0 auto;
   display: block;
 }
-@media (min-width: 992px){
+@media (min-width: 99px){
   footer{
     background-color: #fafafa;
     /*background-image: linear-gradient(to left, #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);*/

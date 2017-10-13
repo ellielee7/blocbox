@@ -27,7 +27,7 @@
 	padding: 20px;
 	margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu {
+.dropit  .dropit-open .dropit-submenu {
     display: block;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
@@ -56,5 +56,11 @@
   color:#34495E;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-weight:100;
+  font-weight: 100;
+ }
+
+
+.settingmenu.dropit .dropit-submenu {
+     bottom: 100%;
+     right: 0;
  }
