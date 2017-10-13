@@ -134,7 +134,7 @@ header .hero {
 header .hero h1 {
   font-size:48px;
   font-weight: normal;
-  margin: 50px 0 0;
+  margin: 30px 0 0;
 }
 header .hero p {
   font-size: 22px;
@@ -456,9 +456,9 @@ footer .logo{
      width:14.66666667%;
      color:#FFFFFF;
      background: #34495E;
-     background-image: -moz-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 40%);
-     background-image: -webkit-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 40%);
-     background-image: -ms-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 40%);
+     background-image: -moz-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 60%);
+     background-image: -webkit-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 60%);
+     background-image: -ms-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 60%);
      /*opacity: 0.8;*/
      float:left;
      position: fixed;
