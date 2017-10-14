@@ -455,16 +455,12 @@ footer .logo{
      height: 100vh;
      width:14.66666667%;
      color:#FFFFFF;
-     background: #34495E;
-     background-image: -moz-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 60%);
-     background-image: -webkit-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 60%);
-     background-image: -ms-linear-gradient( 30deg, rgb(57,181,208) 0%, rgb(255,255,255) 60%);
-     /*opacity: 0.8;*/
+     background: #FAFAFA
      float:left;
      position: fixed;
      display:block;
      transform: translate(0,0);
-     -webkit-transform: translate(0,0); /** Chrome & Safari **/
+     -webkit-transform: translate(0,0); /** Chrome & Safari *
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
